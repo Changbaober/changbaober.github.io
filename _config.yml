@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "IMG_8244.png"
   name             : "Chang Xu"
   pronouns         : # example: "she/her"  
   bio              : "Chang Xu is a climate dynamics researcher and PhD candidate at the Climate Change Research Centre (CCRC), UNSW Sydney. Her research investigates the role of moisture fluxes and multiscale interactions in regulating the propagation of convectively coupled equatorial waves, including Kelvin waves and the Madden–Julian Oscillation. Combining theory-driven diagnostics with high-resolution global models (ICON, UM) and reanalysis datasets (ERA5), she develops process-based frameworks to quantify moisture–wave coupling and scale interactions. Her broader goal is to improve the physical understanding of tropical variability and its representation in next-generation climate models."
@@ -35,10 +35,10 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-7562-1704"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -46,18 +46,17 @@ author:
   scopus           : # URL
   zotero           : # URL
 
-
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/Changbaober"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : "changxu54.bsky.social" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/chang-xu-756441294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"# Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
