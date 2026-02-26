@@ -11,35 +11,40 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Ph.D in Climate Science, The University of New South Wales, 2023-present
+* M.S. in Hydraulic Engineering, Sun Yat-sen University, 2019-2022
+* B.S. in Hydrology and Water Resources Engineering, University of Jinan, 2015-2019
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages
+  * Python
+  * Fortran
+  * Matlab
+  * Linux
+* Specialized Area
+  * Atmospheric Dynamics
+  * Moisture Budget
+  * Convectively Coupled Waves
+  * Climate Modeling
+* Mathematical & Statistical Tools
+  * Fourier Analysis
+  * Wavelet Transform
+  * AR(1) Modeling
+  * Bootstrapping
+  * Regression
+  * Hypothesis Testing
+* Research Skills
+  * High-Resolution Model Evaluation
+  * Time Series Analysis
+  * Signal Detection
+  * Data Visualization
+  * Scientific Writing
+  * Proposal Development
+* Languages
+  * Chinese (Native Language)
+  * English (IELTS: 7.0)
+  * German (Reading only)
 
 Publications
 ======
@@ -53,12 +58,10 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Visiting Researcher, Max Planck Institute for Meteorology (MPI-M), Germany (2026)
+* Founder and Coordinator, Oceanic and Atmospheric Systems Integrated Society (OASIS), UNSW
+* Presenter, AMOS 2026 and MPI-M Joint Seminar
+* Contributor to ARC Centres of Excellence (CLEX & 21st Century Weather) research workshops
+* Project Leader in interdisciplinary hydrology–climate research initiatives
