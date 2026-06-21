@@ -14,7 +14,32 @@ Education
 * Ph.D in Climate Science, The University of New South Wales, 2023-present
 * M.S. in Hydraulic Engineering, Sun Yat-sen University, 2019-2022
 * B.S. in Hydrology and Water Resources Engineering, University of Jinan, 2015-2019
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+
+Service and leadership
+======
+* Visiting Researcher, Max Planck Institute for Meteorology (MPI-M), Germany (2026)
+* Founder and Coordinator, Oceanic and Atmospheric Systems Integrated Society (OASIS), UNSW
+* Presenter, AMOS 2026 and MPI-M Joint Seminar
+* Centre Student, ARC Centre of Excellence for 21st Century Weather, Melbourne (2024 - present)
+* Contributor to ARC Centres of Excellence (CLEX & 21st Century Weather) research workshops
+* Project Leader in interdisciplinary hydrology–climate research initiatives
+
+Interests
+======
+Moisture-Convection Coupling, Climate Dynamics, Equatorial Wave Theory, Scientific Computing, Data Visualization, Science Communication
+
 Skills
 ======
 * Programming Languages
@@ -45,23 +70,3 @@ Skills
   * Chinese (Native Language)
   * English (IELTS: 7.0)
   * German (Reading only)
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Visiting Researcher, Max Planck Institute for Meteorology (MPI-M), Germany (2026)
-* Founder and Coordinator, Oceanic and Atmospheric Systems Integrated Society (OASIS), UNSW
-* Presenter, AMOS 2026 and MPI-M Joint Seminar
-* Contributor to ARC Centres of Excellence (CLEX & 21st Century Weather) research workshops
-* Project Leader in interdisciplinary hydrology–climate research initiatives
