@@ -28,9 +28,9 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.collection == "talks" %}
-        <h2>{{ title }}</h2>
+        {{ title }}
       {% else %}
-        <h2><a href="{{ base_path }}{{ post.url }}">{{ title }}</a></h2>
+        <a href="{{ base_path }}{{ post.url }}">{{ title }}</a>
       {% endif %}
     </h2>
     
