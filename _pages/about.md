@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I am a climate dynamics researcher and PhD candidate at the Climate Change Research Centre (CCRC), UNSW Sydney. My current research investigates the role of moisture fluxes and multiscale interactions in regulating the propagation of convectively coupled equatorial waves, including Kelvin waves and the Madden–Julian Oscillation (MJO).
+I am a climate dynamics researcher and PhD candidate at the Climate Change Research Centre (CCRC), UNSW Sydney, and a member of 21st Century Weather. My current research investigates the role of moisture fluxes and multiscale interactions in regulating the propagation of convectively coupled equatorial waves, including Kelvin waves and the Madden–Julian Oscillation (MJO).
 
 I combine physical theory with moisture-budget and scale-decomposition analyses, using ERA5 reanalysis and output from high-resolution global models, including ICON and the Unified Model (UM). My work aims to identify the mechanisms governing moisture–convection coupling and understand how these mechanisms are represented in climate models.
 
