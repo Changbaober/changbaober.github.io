@@ -110,3 +110,25 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   border-color: #e6e6e6;
 }
+
+
+/* Fix navigation background */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.masthead__menu-item,
+.greedy-nav,
+.greedy-nav .visible-links {
+  background: #082544 !important;
+}
+
+/* Fix navigation text */
+.masthead .greedy-nav a,
+.masthead .masthead__menu-item.selected a {
+  color: #ffffff !important;
+}
+
+/* Selected navigation underline */
+.masthead .masthead__menu-item.selected a {
+  border-bottom: 3px solid #800020 !important;
+}
