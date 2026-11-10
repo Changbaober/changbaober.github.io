@@ -41,3 +41,72 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+
+/* ===================================
+   Chang Xu Academic Website
+   Custom Design — Version 1
+   =================================== */
+
+$navy: #082544;
+$burgundy: #800020;
+$white: #ffffff;
+$cream: #f8f6f2;
+
+/* Global */
+html,
+body {
+  background-color: $white;
+}
+
+body {
+  color: $navy;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: $navy;
+}
+
+/* Links */
+.page__content a,
+.archive a {
+  color: $burgundy;
+
+  &:hover {
+    color: $navy;
+  }
+}
+
+/* Top navigation */
+.masthead {
+  background-color: $navy;
+  border-bottom: 0;
+}
+
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav {
+  background-color: $navy;
+}
+
+.greedy-nav a,
+.greedy-nav .visible-links a {
+  color: $white;
+
+  &:hover {
+    color: $cream;
+  }
+}
+
+/* Navigation selected state */
+.greedy-nav .visible-links
+  .selected > a {
+  color: $white;
+  border-bottom: 3px solid $burgundy;
+}
+
+/* Dividers */
+hr {
+  border-color: #e6e6e6;
+}
