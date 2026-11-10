@@ -8,17 +8,42 @@ redirect_from:
   - /about.html
 ---
 
+<section class="home-about">
 
-I am a climate dynamics researcher and PhD candidate at the Climate Change Research Centre (CCRC), UNSW Sydney, and a member of 21st Century Weather. My current research investigates the role of moisture fluxes and multiscale interactions in regulating the propagation of convectively coupled equatorial waves, including Kelvin waves and the Madden–Julian Oscillation (MJO).
+  <h2>About Me</h2>
 
-I combine physical theory with moisture-budget and scale-decomposition analyses, using ERA5 reanalysis and output from high-resolution global models, including ICON and the Unified Model (UM). My work aims to identify the mechanisms governing moisture–convection coupling and understand how these mechanisms are represented in climate models.
-
-<div style="padding: 16px 20px; margin: 24px 0 32px; background-color: rgba(128, 128, 128, 0.08); border-left: 4px solid #467887; border-radius: 4px;">
-  <p style="margin: 0 0 10px;">
-    I am seeking postdoctoral and research opportunities in tropical climate dynamics, atmospheric convection, and climate modelling.
+  <p>
+    I am a PhD candidate at the Climate Change Research Centre
+    (CCRC), UNSW Sydney, and a member of 21st Century Weather.
   </p>
-  <a href="{{ '/cv/' | relative_url }}">View my CV &rarr;</a>
+
+  <p>
+    My research focuses on tropical convection and atmospheric
+    variability, particularly convectively coupled equatorial
+    waves and the Madden–Julian Oscillation (MJO).
+    I combine physical theory, reanalysis, and numerical
+    modelling to investigate how moisture transport and
+    multiscale circulation interactions influence tropical
+    convection.
+  </p>
+
+</section>
+
+<div class="academic-opportunities">
+  <h3>Academic Opportunities</h3>
+
+  <p>
+    I welcome discussions about postdoctoral opportunities
+    and potential research collaborations in tropical climate
+    dynamics, atmospheric convection, and climate modelling.
+  </p>
+
+  <div class="opportunity-links">
+    <a href="{{ '/cv/' | relative_url }}">View CV &rarr;</a>
+    <a href="mailto:{{ site.author.email }}">Get in touch &rarr;</a>
+  </div>
 </div>
+
 
 ## Research Highlights
 
