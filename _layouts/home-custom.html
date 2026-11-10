@@ -142,6 +142,62 @@ layout: default
         height: 32px;
       }
     }
+      
+    /* ====================================
+       Tropical Atmospheric Signature
+       ==================================== */
+    
+    .home-hero {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      background-color: #082544;
+    }
+    
+    /* Satellite imagery on the right */
+    .home-hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 48%;
+      height: 100%;
+    
+      background-image: url('/images/real_satellite_clouds_navy_zoom.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    
+      /* Fade image edges without changing background colour */
+      -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 35%,
+        black 100%
+      );
+      mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 35%,
+        black 100%
+      );
+    
+      opacity: 0.8;
+      z-index: -1;
+    }
+    
+    /* Keep portrait and text above imagery */
+    .home-hero__inner {
+      position: relative;
+      z-index: 1;
+    }
+    
+    /* Hide satellite image on narrow screens */
+    @media (max-width: 768px) {
+      .home-hero::before {
+        display: none;
+      }
+    }
 
 </style>
 
