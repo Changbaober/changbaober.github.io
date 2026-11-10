@@ -27,16 +27,24 @@
       </div>
     {% endif %}
     <h3 class="archive__item-title" itemprop="headline">
-      {% if post.paperurl %}
+      {% if post.doi and post.doi contains "doi.org/" %}
+        <a href="{{ post.doi }}" target="_blank" rel="noopener noreferrer">
+          {{ title }}
+        </a>
+      {% elsif post.paperurl %}
         {% assign pdf_url = post.paperurl %}
         {% unless pdf_url contains "://" %}
           {% assign pdf_url = pdf_url | prepend: base_path %}
         {% endunless %}
-        <a href="{{ pdf_url }}" target="_blank" rel="noopener">
+        <a href="{{ pdf_url }}" target="_blank" rel="noopener noreferrer">
           {{ title }}
         </a>
       {% elsif post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
+        <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">
+          {{ title }}
+        </a>
+      {% elsif post.category == "under_review" %}
+        {{ title }}
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
           {{ title }}
