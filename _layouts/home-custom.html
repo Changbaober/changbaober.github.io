@@ -124,11 +124,15 @@ layout: default
   
     /* Single white wave divider */
     .home-wave {
-      background: #082544;
-      line-height: 0;
+      position: absolute;
+      bottom: -1px;
+      left: 0;
       width: 100%;
+      line-height: 0;
       overflow: hidden;
-      margin-top: -1px;
+      background: transparent;
+      z-index: 2;
+      pointer-events: none;
     }
     
     .home-wave svg {
@@ -253,7 +257,6 @@ layout: default
     </div>
   
   </div>
-</section>
 
 <div class="home-wave" aria-hidden="true">
   <svg
@@ -271,6 +274,7 @@ layout: default
     />
   </svg>
 </div>
+</section>
 
 <main class="home-main">
   {{ content }}
