@@ -44,27 +44,68 @@ redirect_from:
   </div>
 </div>
 
+<section class="research-section">
 
-## Research Highlights
+  <h2>Research</h2>
 
-### Tropical Waves in High-Resolution Global Models
-I compare tropical wave characteristics and moisture processes in ERA5 reanalysis and high-resolution global model output from ICON and the Unified Model (UM). These comparisons examine how models represent wave propagation and the physical processes underlying it.
+  <p class="research-intro">
+    My research aims to understand tropical atmospheric
+    variability through the interactions between convection,
+    moisture and large-scale circulation.
+  </p>
 
-<p align="center">
-  <img src="/images/comparison_grid_series3_2509 (1).png" width="750">
-</p>
+  <div class="research-grid">
 
-<p style="text-align: center; font-size: 0.9em;">
-Comparison of observed and UM-simulated eastward-propagating convectively coupled waves. 
-Contours highlight coherent Kelvin and MJO structures.
-</p>
+    <!-- Research 1 -->
+    <article class="research-card">
 
-### Moisture Processes and Multiscale Interactions in MJO Propagation
-I investigate how moisture transport and interactions across scales support Madden–Julian Oscillation (MJO) propagation. Combining phase-resolved moisture budgets with scale decomposition, I examine how background conditions, MJO-scale circulation, and smaller-scale variability shape moisture–convection coupling throughout the MJO life cycle.
+      <img
+        src="{{ '/images/comparison_grid_series3_2509 (1).png' | relative_url }}"
+        alt="Comparison of convectively coupled waves in observations and simulations"
+        loading="lazy"
+      >
 
-### Investigating Atmospheric Physical Processes with WRF-SCM
-I use the WRF single-column model to investigate how convection schemes respond to MJO environmental states and large-scale vertical motion. Starting from scheme-specific radiative–convective equilibrium simulations, I compare paired experiments with and without prescribed MJO vertical-motion forcing across five convection schemes to examine differences in convective triggering and precipitation responses. 
+      <h3>Convectively Coupled Equatorial Waves</h3>
 
+      <p>
+        Detection, propagation and model evaluation of
+        convectively coupled tropical waves using reanalysis
+        and high-resolution global simulations.
+      </p>
+
+    </article>
+
+    <!-- Research 2 -->
+    <article class="research-card">
+
+      <h3>MJO Moisture Dynamics</h3>
+
+      <p>
+        Understanding how moisture transport, background
+        conditions and multiscale interactions regulate
+        the evolution and propagation of the
+        Madden–Julian Oscillation.
+      </p>
+
+    </article>
+
+    <!-- Research 3 -->
+    <article class="research-card">
+
+      <h3>Convection–Circulation Interactions</h3>
+
+      <p>
+        Investigating the coupling between tropical
+        convection and large-scale circulation through
+        moisture-budget diagnostics and numerical
+        modelling, including WRF-SCM experiments.
+      </p>
+
+    </article>
+
+  </div>
+
+</section>
 
 
 
