@@ -1,0 +1,131 @@
+
+---
+layout: default
+---
+
+<style>
+  .home-hero {
+    background: #082544;
+    color: #ffffff;
+    padding: 65px 24px 75px;
+  }
+
+  .home-hero__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+  }
+
+  .home-hero__portrait {
+    width: 190px;
+    height: 190px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+  }
+
+  .home-hero__content {
+    border-left: 1px solid #ffffff;
+    padding-left: 40px;
+  }
+
+  .home-hero__content h1 {
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 52px;
+    margin: 0 0 12px;
+  }
+
+  .home-hero__subtitle {
+    color: #f8f6f2;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 22px;
+  }
+
+  .home-hero__description {
+    color: #ffffff;
+    max-width: 660px;
+    line-height: 1.65;
+  }
+
+  .home-hero__links a {
+    color: #ffffff;
+    margin-right: 22px;
+    text-decoration: none;
+  }
+
+  .home-hero__links a:hover {
+    color: #f8f6f2;
+    text-decoration: underline;
+  }
+
+  .home-main {
+    background: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 45px 24px;
+  }
+
+  @media (max-width: 768px) {
+    .home-hero__inner {
+      flex-direction: column;
+      gap: 25px;
+      text-align: center;
+    }
+
+    .home-hero__content {
+      border-left: none;
+      padding-left: 0;
+    }
+
+    .home-hero__content h1 {
+      font-size: 40px;
+    }
+
+    .home-hero__portrait {
+      width: 150px;
+      height: 150px;
+    }
+  }
+</style>
+
+<section class="home-hero">
+  <div class="home-hero__inner">
+
+    <img
+      class="home-hero__portrait"
+      src="{{ site.author.avatar | prepend: '/images/' | relative_url }}"
+      alt="Chang Xu"
+    >
+
+    <div class="home-hero__content">
+      <h1>Chang Xu</h1>
+
+      <p class="home-hero__subtitle">
+        Tropical Convection · Atmospheric Waves · Moisture Dynamics
+      </p>
+
+      <p class="home-hero__description">
+        I study tropical atmospheric variability, focusing on
+        the physical interactions between convection, moisture
+        and large-scale circulation.
+      </p>
+
+      <div class="home-hero__links">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+        <a href="{{ site.author.orcid }}">ORCID</a>
+        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<main class="home-main">
+  {{ content }}
+</main>
