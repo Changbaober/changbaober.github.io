@@ -90,6 +90,37 @@ layout: default
       height: 150px;
     }
   }
+  
+    .home-hero__links {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px 24px;
+      margin-top: 24px;
+    }
+    
+    .home-hero__links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-right: 0;
+      color: #ffffff;
+      font-size: 15px;
+    }
+    
+    .home-hero__links i {
+      font-size: 17px;
+    }
+    
+    .home-hero__links a:hover {
+      color: #f5e8d8;
+    }
+    
+    @media (max-width: 768px) {
+      .home-hero__links {
+        justify-content: center;
+      }
+    }
 </style>
 
 <section class="home-hero">
@@ -113,13 +144,34 @@ layout: default
         the physical interactions between convection, moisture
         and large-scale circulation.
       </p>
-
+      
       <div class="home-hero__links">
-        <a href="mailto:{{ site.author.email }}">Email</a>
-        <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-        <a href="{{ site.author.orcid }}">ORCID</a>
-        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+        <a href="mailto:{{ site.author.email }}">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+          Email
+        </a>
+      
+        <a href="{{ site.author.googlescholar }}">
+          <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+          Google Scholar
+        </a>
+      
+        <a href="{{ site.author.orcid }}">
+          <i class="ai ai-orcid" aria-hidden="true"></i>
+          ORCID
+        </a>
+      
+        <a href="https://github.com/{{ site.author.github }}">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          GitHub
+        </a>
+      
+        <a href="{{ site.author.linkedin }}">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+          LinkedIn
+        </a>
       </div>
+
     </div>
 
   </div>
