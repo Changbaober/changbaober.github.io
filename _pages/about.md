@@ -68,16 +68,18 @@ redirect_from:
       <h3>Convectively Coupled Equatorial Waves</h3>
 
       <p>
-        Detection, propagation and model evaluation of
-        convectively coupled tropical waves using reanalysis
-        and high-resolution global simulations.
+        Detection, local phase.
       </p>
 
     </article>
 
     <!-- Research 2 -->
     <article class="research-card">
-
+      <img
+        src="{{ '/images/researchphoto2.png' | relative_url }}"
+        alt="Moisture fluxes during MJO evolution"
+        loading="lazy"
+      >
       <h3>MJO Moisture Dynamics</h3>
 
       <p>
@@ -91,7 +93,11 @@ redirect_from:
 
     <!-- Research 3 -->
     <article class="research-card">
-
+      <img
+        src="{{ '/images/researchphoto3.png' | relative_url }}"
+        alt="Convection scheme responds to MJO perturbations"
+        loading="lazy"
+      >
       <h3>Convection–Circulation Interactions</h3>
 
       <p>
